@@ -1,0 +1,107 @@
+.Home-Page div{ 
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+  vertical-align: baseline;
+  
+  display: block;
+
+  list-style: none;
+		padding-left: 0;
+    margin-bottom: 0;
+    width: 20%;
+    padding: 3px;
+	background-color: silver;
+	text-align: right; 
+  
+
+
+};
+
+.centered {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Tile CSS Material Below */
+
+.tile-body {
+  display: flex;
+  flex-direction: column;
+  width: 555px;
+  height: 170px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  margin-left: 25rem;
+  margin-bottom: 0.1rem;
+  background-color: rgb(14, 77, 56);
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+.inner-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.picture {
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+  margin-top: 19px;
+  min-width: 85px;
+  height: 17px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  color: #ffffff;
+}
+
+.handle {
+  margin-left: 10px;
+  margin-top: 19px;
+  min-width: 128px;
+  height: 16px;
+  font-family: HelveticaNeue;
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  color: #fdfeff;
+}
+
+.content {
+  margin-left: 15px;
+  margin-top: 7px;
+  width: 445px;
+  height: 88px;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  color: #ffffff;
+}
